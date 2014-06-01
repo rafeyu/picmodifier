@@ -1,0 +1,21 @@
+doctype html
+html
+	head
+		meta charset="utf-8"
+		script type="text/javascript" src="javascript/app.js"
+		link rel="stylesheet" href="css/pure-min.css"
+		link rel="stylesheet" href="css/app.css"
+		title Pic Modifier &alpha;
+	body
+		div.header
+			div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed"
+				a class="pure-menu-heading" href="http://localhost:9292" Pic Modifier
+				ul
+					li 
+						a href="/about" About
+		div.pure-g-r
+			div.pure-u-5-5
+				== yield
+		div class="pull-left"
+			p
+				| &copy; 2014 Ramdziana Feri Yustitianto
